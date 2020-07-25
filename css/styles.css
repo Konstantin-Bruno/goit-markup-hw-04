@@ -47,7 +47,10 @@
   padding-right: 15px;
   margin: auto;
 }
-
+.navigation-item {
+  padding: 0;
+  margin: 0;
+}
 .navigation-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -58,6 +61,7 @@
 }
 
 .navigation-menu {
+  margin: 0;
   display: flex;
   padding: 0;
 }
@@ -117,6 +121,7 @@
 .header .logo .logo-word {
   color: var(--accent-color);
 }
+
 .navigation-item-link {
   font-family: var(--primary-font);
   font-weight: 500;
@@ -124,7 +129,7 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
-
+  max-height: 80px;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
